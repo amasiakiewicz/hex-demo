@@ -1,0 +1,17 @@
+# Intellij project files
+.idea/
+*.iml
+
+# Gradle
+.gradle*
+build/
+classes/
+out/
+generated/
+generated_tests/
+
+# vim
+*.swp
+
+#OS generated
+.DS_Store

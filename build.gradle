@@ -1,0 +1,28 @@
+plugins {
+    id "java"
+    id "idea"
+    id "org.springframework.boot" version "1.5.8.RELEASE"
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+
+    /* jpa */
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("org.hibernate:hibernate-entitymanager:5.2.10.Final")
+    compile("org.hibernate:hibernate-core:5.2.10.Final")
+    /* end jpa */
+
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'com.google.guava:guava:21.0'
+    compile 'commons-io:commons-io:2.5'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.16.16'
+
+}
+
+
+

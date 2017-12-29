@@ -1,0 +1,2 @@
+// Enforce project name regardless of container directory name
+rootProject.name = 'hex-demo'
